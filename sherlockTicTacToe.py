@@ -7,7 +7,7 @@ def printBoard(xState, zState):
             board.append('X')
         elif zState[i]:
             board.append('O')
-        else:
+        else: 
             board.append(str(i))
     print(f"{board[0]} | {board[1]} | {board[2]} ")
     print("--|---|--")
