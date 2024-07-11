@@ -118,7 +118,7 @@ if __name__ == "__main__":
                 match_over = True
             elif checkWin(zState):
                 printBoard(xState, zState)
-                print("Bola Tha na Munna? SherlockAI ko harana Mushkil hi Nahi Na-Mumkin hai!!. SherlockAI won the match!")
+                print("SherlockAI won the match!")
                 ai_wins += 1
                 match_over = True
             elif all(xState[i] or zState[i] for i in range(9)):
