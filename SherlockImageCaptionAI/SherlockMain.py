@@ -39,5 +39,5 @@ img = mpimg.imread(image_path)
 plt.imshow(img)
 plt.title(caption)
 plt.show()
-print(f'Generated Caption: a vendor holding a bunch of balloons')
+print(f'Generated Caption:', {captions})
 
