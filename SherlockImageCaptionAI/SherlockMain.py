@@ -41,3 +41,4 @@ plt.title(caption)
 plt.show()
 print(f'Generated Caption:', {captions})
 
+
